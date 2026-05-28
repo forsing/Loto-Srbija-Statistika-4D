@@ -1,11 +1,11 @@
 
 --- 28.05.2026_11.20.18 (seed=39, N=4622, mode=D, top_pool=15, stats_weight=0.25, position_weight=0.25) ---
-DTR: raw=[8, 13, 16, 23, 31, 34, 37] (suma=162, neparnih=4/7, niskih(≤19)=3/7, raspon=29); 
-rerank_D=[1, 8, 13, 23, 29, 32, 34] (suma=140, neparnih=4/7, niskih(≤19)=3/7, raspon=33); raw_hits=1.480; rerank_hits=1.370; AUC=0.506; LRAP=0.254; stat_score=-0.570; position_score=-17.567; total_score=-3.181
-RFR: raw=[7, 8, 23, 26, 27, 32, 35] (suma=158, neparnih=4/7, niskih(≤19)=2/7, raspon=28); 
-rerank_D=[3, 8, 15, 23, 29, 32, 34] (suma=144, neparnih=4/7, niskih(≤19)=3/7, raspon=31); raw_hits=1.170; rerank_hits=1.170; AUC=0.492; LRAP=0.245; stat_score=-0.274; position_score=-17.894; total_score=-3.215
-XGB: raw=[2, 7, 23, 28, 30, 32, 37] (suma=159, neparnih=3/7, niskih(≤19)=2/7, raspon=35); 
-rerank_D=[2, 7, 13, 23, 28, 32, 37] (suma=142, neparnih=4/7, niskih(≤19)=3/7, raspon=35); raw_hits=1.140; rerank_hits=1.260; AUC=0.498; LRAP=0.239; stat_score=-1.183; position_score=-17.409; total_score=-2.365
+DTR: raw=[8, x, 16, y, 31, z, 37] (suma=162, neparnih=4/7, niskih(≤19)=3/7, raspon=29); 
+rerank_D=[1, x, 13, y, 29, z, 34] (suma=140, neparnih=4/7, niskih(≤19)=3/7, raspon=33); raw_hits=1.480; rerank_hits=1.370; AUC=0.506; LRAP=0.254; stat_score=-0.570; position_score=-17.567; total_score=-3.181
+RFR: raw=[7, x, 23, y, 27, z, 35] (suma=158, neparnih=4/7, niskih(≤19)=2/7, raspon=28); 
+rerank_D=[3, x, 15, y, 29, z, 34] (suma=144, neparnih=4/7, niskih(≤19)=3/7, raspon=31); raw_hits=1.170; rerank_hits=1.170; AUC=0.492; LRAP=0.245; stat_score=-0.274; position_score=-17.894; total_score=-3.215
+XGB: raw=[2, x, 23, y, 30, z, 37] (suma=159, neparnih=3/7, niskih(≤19)=2/7, raspon=35); 
+rerank_D=[2, x, 13, y, 28, z, 37] (suma=142, neparnih=4/7, niskih(≤19)=3/7, raspon=35); raw_hits=1.140; rerank_hits=1.260; AUC=0.498; LRAP=0.239; stat_score=-1.183; position_score=-17.409; total_score=-2.365
 stats_params={'suma': (140.5097, 27.6406), 'neparnih': (3.5924, 1.1999), 'niskih': (3.3845, 1.2181), 'raspon': (29.9234, 5.1672)}
 plot=/0_4_SkewnessKurtosis_D.png
 ukupno_vreme=0:01:37  (97.8 s)
